@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: telegram-alert-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python webhook.py
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        value: "BURAYA_BOT_TOKEN"
+      - key: CHAT_ID
+        value: "BURAYA_CHAT_ID"
