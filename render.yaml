@@ -6,7 +6,7 @@ services:
     buildCommand: ""
     startCommand: python webhook.py
     envVars:
-      - key: TELEGRAM_BOT_TOKEN
-        value: "BURAYA_BOT_TOKEN"
-      - key: CHAT_ID
-        value: "BURAYA_CHAT_ID"
+      - key: 8142894136:AAFhHB9Su8C2qRnzGTBpXDzo3oAaPqctISs
+        value: "8142894136:AAFhHB9Su8C2qRnzGTBpXDzo3oAaPqctISs"
+      - key: -4757109683
+        value: "-4757109683"
