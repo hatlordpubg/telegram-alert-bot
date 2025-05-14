@@ -6,7 +6,7 @@ services:
     buildCommand: ""
     startCommand: python webhook.py
     envVars:
-      - key: 8142894136:AAFhHB9Su8C2qRnzGTBpXDzo3oAaPqctISs
+      - key: TELEGRAM_TOKEN
         value: "8142894136:AAFhHB9Su8C2qRnzGTBpXDzo3oAaPqctISs"
-      - key: -4757109683
+      - key: TELEGRAM_CHAT_ID
         value: "-4757109683"
